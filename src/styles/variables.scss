@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+$ubuntu-font: "Ubuntu", sans-serif;
+$background: rgb(240, 222, 246);
+$background2: rgb(110, 37, 227);
+
+$text: rgb(15, 15, 15);
+$text2: rgb(240, 240, 240);
+
+$primary: rgb(110, 37, 227);
+$secondary: rgb(200, 87, 235);
+$complementary: rgb(74, 199, 71);
+
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+$header-height: 72px;
+
+$sm: 38em;
+$md: 48em;
+$sm: 64em;
+$sm: 75em;
+
+@mixin breakpoint($point) {
+  @if $point == md {
+    @media (min-width: $md) {
+      @content;
+    }
+  }
+}
