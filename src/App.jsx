@@ -4,6 +4,8 @@ import PageNavbar from "./components/PageNavbar";
 import GameCategories from "./components/GameCategories";
 import MovieCategories from "./components/Movies";
 import CartoonCategories from "./components/Cartoons";
+import SingleCard from "./components/SingleCard";
+import Footer from "./components/Footer";
 
 const NotFound = () => {
   return (
@@ -23,8 +25,12 @@ const App = () => {
         <Route path="/videogames" element={<GameCategories />} />
         <Route path="/movies" element={<MovieCategories />} />
         <Route path="/cartoons" element={<CartoonCategories />} />
+        <Route path="/card" element={<SingleCard />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <br />
+      <br />
+      <Footer />
     </>
   );
 };

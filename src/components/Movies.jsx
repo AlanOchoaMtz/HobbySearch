@@ -26,11 +26,10 @@ const MovieCategories = () => {
 
   return (
     <>
-      <h1 className={styles.homepage}>Choose your Game</h1>
+      <h1 className={styles.homepage}>Choose your Movie</h1>
       <section className={styles.homepage}>
         <ul className={styles.GameCard}>{movieList}</ul>
       </section>
-      <h1>Footer</h1>
     </>
   );
 };

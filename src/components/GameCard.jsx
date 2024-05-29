@@ -1,12 +1,10 @@
 /* eslint-disable react/prop-types */
 import styles from "../styles/GameCard.module.scss";
+import { Link } from "react-router-dom";
 
 const GameCard = (props) => {
   let item = props.item;
   let category = props.category;
-  if (category == "Games") {
-    console.log("GameTest".item);
-  }
   return (
     <section className={styles.cardContainer}>
       {category == "Movies" && (
@@ -30,6 +28,9 @@ const GameCard = (props) => {
           <h2 className={styles.cardTitle}>{item.title}</h2>
         </>
       )}
+      <Link to="/card" state={props}>
+        <button className={styles.cardbtn}>See More</button>
+      </Link>
     </section>
   );
 };

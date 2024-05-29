@@ -146,3 +146,14 @@
     color: $secondary;
   }
 }
+
+.footer {
+  background-color: $background2;
+  border-top: 2px solid $background;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}

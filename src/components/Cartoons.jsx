@@ -26,11 +26,10 @@ const CartoonCategories = () => {
 
   return (
     <>
-      <h1 className={styles.homepage}>Choose your Game</h1>
+      <h1 className={styles.homepage}>Choose your Cartoon</h1>
       <section className={styles.homepage}>
         <ul className={styles.GameCard}>{cartoonList}</ul>
       </section>
-      <h1>Footer</h1>
     </>
   );
 };

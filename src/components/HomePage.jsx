@@ -26,11 +26,10 @@ const HomePage = () => {
 
   return (
     <>
-      <h1 className={styles.homepage}>Choose your Game</h1>
+      <h1 className={styles.homepage}>Welcome to List of Hobbies</h1>
       <section className={styles.homepage}>
         <ul className={styles.GameCard}>{gameList}</ul>
       </section>
-      <h1>Footer</h1>
     </>
   );
 };

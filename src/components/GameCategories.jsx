@@ -30,7 +30,6 @@ const GameCategories = () => {
       <section className={styles.homepage}>
         <ul className={styles.GameCard}>{gameList}</ul>
       </section>
-      <h1>Footer</h1>
     </>
   );
 };
