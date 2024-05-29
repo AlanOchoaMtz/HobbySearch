@@ -1,8 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hobby Fan Webpage is focused on showing different lists of meadia content for entertaiment in differetn categories the user can secelt
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+realted presentation: https://pitch.com/v/hobby-fan-webpage-pma9wv
+Youtube video explanation: https://youtu.be/FyHyoHGdHI4
